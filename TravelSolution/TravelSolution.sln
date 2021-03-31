@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7331DAA8-6BDE-4EE4-9821-0249818C4CC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{6DB4A5D7-B9E7-42BE-9DAC-17CA4E621773}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{CFBC0D7C-5007-4C20-9A88-C355AAC3C1E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "presentation", "presentation", "{E424F55B-41D6-4567-83B6-99391FC3E392}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travel.Domain", "Travel.Domain\Travel.Domain.csproj", "{FA49CD3D-BE6A-4386-BE30-8D2E4D5EE9C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travel.Application", "Travel.Application\Travel.Application.csproj", "{41467009-2430-47A8-A136-B345B1426767}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travel.Shared", "Travel.Shared\Travel.Shared.csproj", "{66C8CD24-C271-4537-B75C-F5D9A1D1D517}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travel.Data", "Travel.Data\Travel.Data.csproj", "{2495037C-387F-42D6-A54D-ADBD628536AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travel.WebApi", "Travel.WebApi\Travel.WebApi.csproj", "{340EFF4D-20AD-4059-A38F-0E4AA3170821}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA49CD3D-BE6A-4386-BE30-8D2E4D5EE9C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA49CD3D-BE6A-4386-BE30-8D2E4D5EE9C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA49CD3D-BE6A-4386-BE30-8D2E4D5EE9C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA49CD3D-BE6A-4386-BE30-8D2E4D5EE9C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41467009-2430-47A8-A136-B345B1426767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41467009-2430-47A8-A136-B345B1426767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41467009-2430-47A8-A136-B345B1426767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41467009-2430-47A8-A136-B345B1426767}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66C8CD24-C271-4537-B75C-F5D9A1D1D517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C8CD24-C271-4537-B75C-F5D9A1D1D517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C8CD24-C271-4537-B75C-F5D9A1D1D517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C8CD24-C271-4537-B75C-F5D9A1D1D517}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2495037C-387F-42D6-A54D-ADBD628536AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2495037C-387F-42D6-A54D-ADBD628536AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2495037C-387F-42D6-A54D-ADBD628536AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2495037C-387F-42D6-A54D-ADBD628536AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{340EFF4D-20AD-4059-A38F-0E4AA3170821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{340EFF4D-20AD-4059-A38F-0E4AA3170821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{340EFF4D-20AD-4059-A38F-0E4AA3170821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{340EFF4D-20AD-4059-A38F-0E4AA3170821}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6DB4A5D7-B9E7-42BE-9DAC-17CA4E621773} = {7331DAA8-6BDE-4EE4-9821-0249818C4CC6}
+		{CFBC0D7C-5007-4C20-9A88-C355AAC3C1E8} = {7331DAA8-6BDE-4EE4-9821-0249818C4CC6}
+		{E424F55B-41D6-4567-83B6-99391FC3E392} = {7331DAA8-6BDE-4EE4-9821-0249818C4CC6}
+		{FA49CD3D-BE6A-4386-BE30-8D2E4D5EE9C9} = {6DB4A5D7-B9E7-42BE-9DAC-17CA4E621773}
+		{41467009-2430-47A8-A136-B345B1426767} = {6DB4A5D7-B9E7-42BE-9DAC-17CA4E621773}
+		{66C8CD24-C271-4537-B75C-F5D9A1D1D517} = {CFBC0D7C-5007-4C20-9A88-C355AAC3C1E8}
+		{2495037C-387F-42D6-A54D-ADBD628536AE} = {CFBC0D7C-5007-4C20-9A88-C355AAC3C1E8}
+		{340EFF4D-20AD-4059-A38F-0E4AA3170821} = {E424F55B-41D6-4567-83B6-99391FC3E392}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7473CC80-24A4-4740-9C4E-5181E8592B4B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Shared\bin\Debug\net5.0\Travel.Shared.deps.json
+D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Shared\bin\Debug\net5.0\Travel.Shared.dll
+D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Shared\bin\Debug\net5.0\ref\Travel.Shared.dll
+D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Shared\bin\Debug\net5.0\Travel.Shared.pdb
+D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Shared\bin\Debug\net5.0\Travel.Application.dll
+D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Shared\bin\Debug\net5.0\Travel.Domain.dll
+D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Shared\bin\Debug\net5.0\Travel.Application.pdb
+D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Shared\bin\Debug\net5.0\Travel.Domain.pdb
+D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Shared\obj\Debug\net5.0\Travel.Shared.csprojAssemblyReference.cache
+D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Shared\obj\Debug\net5.0\Travel.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Shared\obj\Debug\net5.0\Travel.Shared.AssemblyInfoInputs.cache
+D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Shared\obj\Debug\net5.0\Travel.Shared.AssemblyInfo.cs
+D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Shared\obj\Debug\net5.0\Travel.Shared.csproj.CoreCompileInputs.cache
+D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Shared\obj\Debug\net5.0\Travel.Shared.csproj.CopyComplete
+D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Shared\obj\Debug\net5.0\Travel.Shared.dll
+D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Shared\obj\Debug\net5.0\ref\Travel.Shared.dll
+D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Shared\obj\Debug\net5.0\Travel.Shared.pdb

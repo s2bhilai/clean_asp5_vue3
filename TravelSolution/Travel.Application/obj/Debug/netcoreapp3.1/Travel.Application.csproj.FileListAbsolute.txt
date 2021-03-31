@@ -1,0 +1,12 @@
+D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Application\bin\Debug\netcoreapp3.1\Travel.Application.deps.json
+D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Application\bin\Debug\netcoreapp3.1\Travel.Application.dll
+D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Application\bin\Debug\netcoreapp3.1\Travel.Application.pdb
+D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Application\bin\Debug\netcoreapp3.1\Travel.Domain.dll
+D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Application\bin\Debug\netcoreapp3.1\Travel.Domain.pdb
+D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Application\obj\Debug\netcoreapp3.1\Travel.Application.csprojAssemblyReference.cache
+D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Application\obj\Debug\netcoreapp3.1\Travel.Application.AssemblyInfoInputs.cache
+D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Application\obj\Debug\netcoreapp3.1\Travel.Application.AssemblyInfo.cs
+D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Application\obj\Debug\netcoreapp3.1\Travel.Application.csproj.CoreCompileInputs.cache
+D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Application\obj\Debug\netcoreapp3.1\Travel.Application.csproj.CopyComplete
+D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Application\obj\Debug\netcoreapp3.1\Travel.Application.dll
+D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Application\obj\Debug\netcoreapp3.1\Travel.Application.pdb

@@ -1,0 +1,28 @@
+﻿
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Travel.Application.Common.Interfaces;
+using Travel.Domain.Settings;
+using Travel.Shared.Files;
+using Travel.Shared.Services;
+
+namespace Travel.Shared
+{
+    public static class DependencyInjection
+    {
+        public static IServiceCollection AddInfraStructureShared(this IServiceCollection services,IConfiguration config)
+        {
+            services.Configure<MailSettings>(config.GetSection("MailSettings"));
+            services.AddTransient<IDateTime, DateTimeService>();
+            services.AddTransient<IEmailService, EmailService>();
+            services.AddTransient<ICsvFileBuilder, CsvBuilder>();
+
+            return services;
+        }
+    }
+}
