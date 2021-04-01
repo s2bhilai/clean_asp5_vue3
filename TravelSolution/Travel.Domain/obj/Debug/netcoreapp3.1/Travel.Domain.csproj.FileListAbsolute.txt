@@ -1,9 +1,9 @@
 D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Domain\bin\Debug\netcoreapp3.1\Travel.Domain.deps.json
 D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Domain\bin\Debug\netcoreapp3.1\Travel.Domain.dll
 D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Domain\bin\Debug\netcoreapp3.1\Travel.Domain.pdb
-D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Domain\obj\Debug\netcoreapp3.1\Travel.Domain.csprojAssemblyReference.cache
 D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Domain\obj\Debug\netcoreapp3.1\Travel.Domain.AssemblyInfoInputs.cache
 D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Domain\obj\Debug\netcoreapp3.1\Travel.Domain.AssemblyInfo.cs
 D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Domain\obj\Debug\netcoreapp3.1\Travel.Domain.csproj.CoreCompileInputs.cache
 D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Domain\obj\Debug\netcoreapp3.1\Travel.Domain.dll
 D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Domain\obj\Debug\netcoreapp3.1\Travel.Domain.pdb
+D:\Tech\Asp_Net_Core_Vue\Travel\TravelSolution\Travel.Domain\obj\Debug\netcoreapp3.1\Travel.Domain.csprojAssemblyReference.cache

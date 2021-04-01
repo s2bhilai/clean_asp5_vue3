@@ -36,8 +36,8 @@ namespace Travel.Application.TourLists.Queries.GetTours
                 Lists = await _context.TourLists
                     .ProjectTo<TourListDto>(_mapper.ConfigurationProvider)
                     .OrderBy(t => t.City)
-                    .ToListAsync();
-            }
+                    .ToListAsync()
+            };
         }
     }
 }

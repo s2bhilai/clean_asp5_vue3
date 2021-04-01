@@ -5,6 +5,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Travel.Application.TourLists.Commands.CreateTourList;
+using Travel.Application.TourLists.Commands.DeleteTourList;
+using Travel.Application.TourLists.Commands.UpdateTourList;
+using Travel.Application.TourLists.Queries.ExportTours;
+using Travel.Application.TourLists.Queries.GetTours;
 using Travel.Data.Contexts;
 using Travel.Domain.Entities;
 
@@ -12,55 +17,45 @@ namespace Travel.WebApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class TourListsController: ControllerBase
+    public class TourListsController: ApiController
     {
-        private TravelDbContext _dbContext;
-
-        public TourListsController(TravelDbContext travelDbContext)
+        [HttpGet]
+        public async Task<ActionResult<ToursVm>> Get()
         {
-            _dbContext = travelDbContext;
+            return await Mediator.Send(new GetToursQuery());
         }
 
-        [HttpGet]
-        public IActionResult Get()
+        [HttpGet("{id}")]
+        public async Task<FileResult> Get(int id)
         {
-            return Ok(_dbContext.TourLists);
+            var vm = await Mediator.Send(new ExportToursQuery { ListId = id });
+
+            return File(vm.Content, vm.ContentType, vm.FileName);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] TourList tourList)
+        public async Task<ActionResult<int>> Create(CreateTourListCommand command)
         {
-            await _dbContext.TourLists.AddAsync(tourList);
-            await _dbContext.SaveChangesAsync();
-
-            return Ok(tourList);
-        }
-
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete([FromRoute] int id)
-        {
-            var tourList = await _dbContext.TourLists.SingleOrDefaultAsync(t => t.Id == id);
-
-            if (tourList == null)
-                return NotFound();
-
-            _dbContext.TourLists.Remove(tourList);
-            await _dbContext.SaveChangesAsync();
-
-            return Ok(tourList);
+            return await Mediator.Send(command);
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update([FromRoute] int id,[FromBody] TourList tourList)
+        public async Task<ActionResult> Update(int id,UpdateTourListCommand command)
         {
-            _dbContext.Update(tourList);
+            if (id != command.Id)
+                return BadRequest();
 
-            await _dbContext.SaveChangesAsync();
+            await Mediator.Send(command);
 
-            return Ok(tourList);
+            return NoContent();
         }
 
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> Delete(int id)
+        {
+            await Mediator.Send(new DeleteTourListCommand { Id = id });
 
-
+            return NoContent();
+        }
     }
 }

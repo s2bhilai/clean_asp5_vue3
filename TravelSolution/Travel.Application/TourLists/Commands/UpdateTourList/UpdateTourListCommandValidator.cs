@@ -16,7 +16,7 @@ namespace Travel.Application.TourLists.Commands.UpdateTourList
         {
             _context = context;
 
-            RuleFor(v => v.City)
+            RuleFor(v => v.City);
         }
     }
 }

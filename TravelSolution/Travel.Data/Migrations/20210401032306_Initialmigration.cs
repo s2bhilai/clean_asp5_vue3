@@ -2,7 +2,7 @@
 
 namespace Travel.Data.Migrations
 {
-    public partial class InitialCreate : Migration
+    public partial class Initialmigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
