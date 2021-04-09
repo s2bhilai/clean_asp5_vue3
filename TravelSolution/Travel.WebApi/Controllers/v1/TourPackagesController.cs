@@ -12,10 +12,9 @@ using Travel.Application.TourPackages.Commands.UpdateTourPackageDetail;
 using Travel.Data.Contexts;
 using Travel.Domain.Entities;
 
-namespace Travel.WebApi.Controllers
+namespace Travel.WebApi.Controllers.v1
 {
-    [ApiController]
-    [Route("api/[controller]")]
+
     public class TourPackagesController:ApiController
     {       
         [HttpPost]
